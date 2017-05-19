@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381C5E471ECAEC92005EF7A4 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 381C5E461ECAEC92005EF7A4 /* gold.png */; };
+		381C5E491ECAF0AD005EF7A4 /* ViewController2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381C5E481ECAF0AD005EF7A4 /* ViewController2ViewController.swift */; };
 		3835808A1ECAE6D000C920FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383580891ECAE6D000C920FD /* AppDelegate.swift */; };
 		3835808C1ECAE6D000C920FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3835808B1ECAE6D000C920FD /* ViewController.swift */; };
 		3835808F1ECAE6D000C920FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3835808D1ECAE6D000C920FD /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		381C5E461ECAEC92005EF7A4 /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
+		381C5E481ECAF0AD005EF7A4 /* ViewController2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2ViewController.swift; path = ../ViewController2ViewController.swift; sourceTree = "<group>"; };
 		383580861ECAE6D000C920FD /* BMI　APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI　APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		383580891ECAE6D000C920FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3835808B1ECAE6D000C920FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				383580891ECAE6D000C920FD /* AppDelegate.swift */,
+				381C5E481ECAF0AD005EF7A4 /* ViewController2ViewController.swift */,
 				3835808B1ECAE6D000C920FD /* ViewController.swift */,
 				3835808D1ECAE6D000C920FD /* Main.storyboard */,
+				381C5E461ECAEC92005EF7A4 /* gold.png */,
 				383580901ECAE6D000C920FD /* Assets.xcassets */,
 				383580921ECAE6D000C920FD /* LaunchScreen.storyboard */,
 				383580951ECAE6D000C920FD /* Info.plist */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				383580941ECAE6D000C920FD /* LaunchScreen.storyboard in Resources */,
+				381C5E471ECAEC92005EF7A4 /* gold.png in Resources */,
 				383580911ECAE6D000C920FD /* Assets.xcassets in Resources */,
 				3835808F1ECAE6D000C920FD /* Main.storyboard in Resources */,
 			);
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3835808C1ECAE6D000C920FD /* ViewController.swift in Sources */,
+				381C5E491ECAF0AD005EF7A4 /* ViewController2ViewController.swift in Sources */,
 				3835808A1ECAE6D000C920FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +513,7 @@
 				383580B01ECAE6D000C920FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		383580B11ECAE6D000C920FD /* Build configuration list for PBXNativeTarget "BMI　APPTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				383580B31ECAE6D000C920FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		383580B41ECAE6D000C920FD /* Build configuration list for PBXNativeTarget "BMI　APPUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				383580B61ECAE6D000C920FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
