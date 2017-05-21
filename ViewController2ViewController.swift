@@ -20,8 +20,7 @@ class ViewController2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let final: String = String(params)
-//        let finalgen: String = String(genderparams)
-//        print(finalgen)
+        //http://qiita.com/Kenya/items/ba8a19f84a830f229e1b
         self.finalresult.text = final
         self.finalage.text = self.ageparams
         self.finalgender.text = self.genderparams

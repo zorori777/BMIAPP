@@ -59,5 +59,6 @@ class ViewController: UIViewController, UITextFieldDelegate  {
     func textFieldShouldReturn(_ youtall: UITextField) -> Bool {
         youtall.resignFirstResponder()
         return true
+    //http://anthrgrnwrld.hatenablog.com/entry/2015/06/26/204031
     }
 }
